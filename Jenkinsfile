@@ -8,7 +8,7 @@ pipeline {
         }
         stage('push') {
             steps {
-//                 sh 'some command...'
+                sh 'history'
             }
         }
         stage('deploy') {
